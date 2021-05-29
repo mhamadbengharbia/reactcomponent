@@ -1,0 +1,36 @@
+.App {
+background-color: white;
+max-width: 800px;
+margin: auto;
+margin-top: 20vh;
+}
+
+ .profilepic img{
+width: 15vw;
+margin: 5vw;
+}
+ .cart{
+   
+display: flex;
+flex-flow: row;
+flex-wrap: wrap;
+margin: auto;
+ }
+ .profileinfo{
+  font-style: italic;
+  color: brown;
+  margin: auto;
+font-size: 1vw;  
+}
+@media screen and (max-width:700px){
+  .profilepic img{
+    width: 20vw;
+ 
+    }
+ 
+     .profileinfo{
+ 
+    font-size: 2vw;  
+    }
+
+}
